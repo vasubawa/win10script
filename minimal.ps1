@@ -31,7 +31,7 @@ $tweaks = @(
   "CreateRestorePoint",
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"Install7Zip",
+	"InstallWinRar",
 	"InstallNotepadplusplus",
 
 	### Windows Apps
@@ -206,9 +206,9 @@ Function InstallJava {
 	choco install jre8 -y
 }
 
-Function Install7Zip {
-	Write-Output "Installing 7-Zip"
-	choco install 7zip -y
+Function InstallWinRar {
+	Write-Output "Installing WinRar"
+	choco install winrar -y
 }
 
 Function InstallNotepadplusplus {
