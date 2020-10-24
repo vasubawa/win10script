@@ -197,14 +197,14 @@ Function InstallTitusProgs {
 }
 
 #Function InstallAdobe {
-	Write-Output "Installing Adobe Acrobat Reader"
-	choco install adobereader -y
-}
+#	Write-Output "Installing Adobe Acrobat Reader"
+#	choco install adobereader -y
+#}
 
 #Function InstallJava {
-	Write-Output "Installing Java"
-	choco install adoptopenjdk8 -y
-}
+#	Write-Output "Installing Java"
+#	choco install adoptopenjdk8 -y
+#}
 
 Function InstallWinRar {
 	Write-Output "Installing WinRar"
@@ -212,9 +212,9 @@ Function InstallWinRar {
 }
 
 #Function InstallNotepadplusplus {
-	Write-Output "Installing Notepad++"
-	choco install notepadplusplus -y
-}
+#	Write-Output "Installing Notepad++"
+#	choco install notepadplusplus -y
+#}
 
 Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
