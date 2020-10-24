@@ -154,9 +154,9 @@ $tweaks = @(
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
 	# "DisableXboxFeatures",          # "EnableXboxFeatures",
-	"DisableAdobeFlash",            # "EnableAdobeFlash",
+	#"DisableAdobeFlash",             "EnableAdobeFlash",
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
-	"UninstallInternetExplorer",  # "InstallInternetExplorer",
+	#"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
 	"InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	"InstallHyperV",              # "UninstallHyperV",
@@ -196,12 +196,12 @@ Function InstallTitusProgs {
 	./OOSU10.exe ooshutup10.cfg /quiet
 }
 
-Function InstallAdobe {
+#Function InstallAdobe {
 	Write-Output "Installing Adobe Acrobat Reader"
 	choco install adobereader -y
 }
 
-Function InstallJava {
+#Function InstallJava {
 	Write-Output "Installing Java"
 	choco install adoptopenjdk8 -y
 }
@@ -211,7 +211,7 @@ Function InstallWinRar {
 	choco install winrar -y
 }
 
-Function InstallNotepadplusplus {
+#Function InstallNotepadplusplus {
 	Write-Output "Installing Notepad++"
 	choco install notepadplusplus -y
 }
