@@ -176,7 +176,7 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
+	#"UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons"
 
 	### Auxiliary Functions ###
