@@ -30,7 +30,7 @@ $tweaks = @(
 	"RequireAdmin",
 
 	### External Program Setup
-	#"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
+	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	#"Install7Zip",
 	"InstallNotepadplusplus",
 
