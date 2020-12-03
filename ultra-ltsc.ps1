@@ -30,8 +30,8 @@ $tweaks = @(
 	"RequireAdmin",
 
 	### External Program Setup
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"Install7Zip",
+	#"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
+	#"Install7Zip",
 	"InstallNotepadplusplus",
 
 	### Windows Apps
@@ -67,12 +67,12 @@ $tweaks = @(
 	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
-	"DisableFirewall",            # "EnableFirewall",
+	"EnableFirewall",
 	"DisableDefender",            # "EnableDefender",
 	"DisableDefenderCloud",       # "EnableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
-	"DisableCIMemoryIntegrity",
+	#"DisableCIMemoryIntegrity",
 	"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
 	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
@@ -86,7 +86,7 @@ $tweaks = @(
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
 	"DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
-	"DisableAutorun",               # "EnableAutorun",
+	#"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
 	"DisableDefragmentation",     # "EnableDefragmentation",
 	"DisableSuperfetch",          # "EnableSuperfetch",
@@ -98,9 +98,9 @@ $tweaks = @(
 	# "DisableFastStartup",         # "EnableFastStartup",
 
 	### UI Tweaks ###
-	"DisableActionCenter",          # "EnableActionCenter",
-	"DisableLockScreen",            # "EnableLockScreen",
-	"DisableLockScreenRS1",       # "EnableLockScreenRS1",
+	"EnableActionCenter",
+	"EnableLockScreen",
+	"EnableLockScreenRS1",
 	# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
 	# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
 	"DisableStickyKeys",            # "EnableStickyKeys",
@@ -120,7 +120,7 @@ $tweaks = @(
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	"EnableNumlock",             	# "DisableNumlock",
-	"EnableDarkMode",				# "DisableDarkMode",
+	#"EnableDarkMode",				# "DisableDarkMode",
 	"Stop-EdgePDF",
 
 	### Explorer UI Tweaks ###
@@ -155,7 +155,7 @@ $tweaks = @(
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	"UninstallWindowsStore",      # "InstallWindowsStore",
 	"DisableXboxFeatures",          # "EnableXboxFeatures",
-	"DisableAdobeFlash",            # "EnableAdobeFlash",
+	#"DisableAdobeFlash",            # "EnableAdobeFlash",
 	"InstallMediaPlayer", 		# "UninstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
@@ -163,7 +163,7 @@ $tweaks = @(
 	"UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
-	"InstallPDFPrinter",		# "UninstallPDFPrinter",
+	#"InstallPDFPrinter",		# "UninstallPDFPrinter",
 	"UninstallXPSPrinter",          # "InstallXPSPrinter",
 	"RemoveFaxPrinter",             # "AddFaxPrinter",
 
@@ -177,7 +177,7 @@ $tweaks = @(
 
 	### Unpinning ###
 	"UnpinStartMenuTiles",
-	"UnpinTaskbarIcons"
+	#"UnpinTaskbarIcons"
 
 	### Auxiliary Functions ###
 )
